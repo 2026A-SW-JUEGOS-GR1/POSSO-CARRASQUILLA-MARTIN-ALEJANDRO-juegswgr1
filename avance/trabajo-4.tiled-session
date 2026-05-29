@@ -1,0 +1,64 @@
+{
+    "activeFile": "mapa_japon.json",
+    "expandedProjectPaths": [
+        "."
+    ],
+    "fileStates": {
+        "mapa_egipto.json": {
+            "scale": 0.33,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1304.5454545454545,
+                "y": 677.2727272727274
+            }
+        },
+        "mapa_egipto.json#background-egypt": {
+            "scaleInDock": 1
+        },
+        "mapa_japon.json": {
+            "scale": 0.3113076923076923,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 1190.1408450704225,
+                "y": 1116.2589572522857
+            }
+        },
+        "mapa_japon.json#background-japan": {
+            "scaleInDock": 0.5
+        },
+        "mapa_roma.json": {
+            "scale": 0.33,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1295.4545454545455,
+                "y": 798.4848484848484
+            }
+        },
+        "mapa_roma.json#background-rome": {
+            "scaleInDock": 0.5,
+            "scaleInEditor": 1
+        }
+    },
+    "last.imagePath": "D:/Universidad/Deberes/octavo/juegos/assets",
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 65,
+    "map.tileWidth": 65,
+    "map.width": 40,
+    "openFiles": [
+        "mapa_roma.json",
+        "mapa_egipto.json",
+        "mapa_japon.json"
+    ],
+    "project": "trabajo-4.tiled-project",
+    "property.type": "bool",
+    "recentFiles": [
+        "mapa_roma.json",
+        "mapa_egipto.json",
+        "mapa_japon.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 65,
+        "width": 65
+    }
+}
