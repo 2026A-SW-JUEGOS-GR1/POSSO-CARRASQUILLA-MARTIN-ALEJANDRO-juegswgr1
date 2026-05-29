@@ -1,0 +1,63 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "": {
+            "scaleInDock": 1
+        },
+        "#background": {
+            "scaleInEditor": 1
+        },
+        "mapa.json": {
+            "scale": 0.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 243,
+                "y": 97
+            }
+        },
+        "mapa.json#Back2": {
+            "dynamicWrapping": true,
+            "scaleInEditor": 1
+        },
+        "mapa.json#background": {
+            "dynamicWrapping": false,
+            "scaleInDock": 0.75
+        },
+        "mapa.json#background-fixed": {
+            "scaleInDock": 0.75,
+            "scaleInEditor": 1
+        },
+        "mapa2.json": {
+            "scale": 0.25,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 1604,
+                "y": 944
+            }
+        },
+        "mapa2.json#backgroundfix": {
+            "scaleInDock": 1
+        }
+    },
+    "last.imagePath": "D:/Universidad/Deberes/octavo/juegos/POSSO-CARRASQUILLA-MARTIN-ALEJANDRO-juegswgr1/00-2d",
+    "map.height": 20,
+    "map.lastUsedFormat": "json",
+    "map.tileHeight": 65,
+    "map.tileWidth": 65,
+    "map.width": 50,
+    "openFiles": [
+    ],
+    "project": "proyecto-01.tiled-project",
+    "recentFiles": [
+        "mapa2.json",
+        "mapa.json"
+    ],
+    "tileset.embedInMap": true,
+    "tileset.tileSize": {
+        "height": 65,
+        "width": 65
+    },
+    "tileset.type": 0
+}
