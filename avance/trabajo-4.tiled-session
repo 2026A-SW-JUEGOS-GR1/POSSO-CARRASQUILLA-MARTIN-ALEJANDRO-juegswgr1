@@ -1,64 +1,83 @@
 {
-    "activeFile": "mapa_japon.json",
+    "activeFile": "mapa_egipto.json",
     "expandedProjectPaths": [
         "."
     ],
     "fileStates": {
+        "": {
+            "scaleInDock": 3
+        },
         "mapa_egipto.json": {
-            "scale": 0.33,
+            "scale": 0.75,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1304.5454545454545,
-                "y": 677.2727272727274
+                "x": 2415.333333333333,
+                "y": 831.3333333333333
             }
         },
         "mapa_egipto.json#background-egypt": {
             "scaleInDock": 1
         },
         "mapa_japon.json": {
-            "scale": 0.3113076923076923,
+            "scale": 0.5,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 1190.1408450704225,
-                "y": 1116.2589572522857
+                "x": 795,
+                "y": 951
             }
         },
+        "mapa_japon.json#background-egypt": {
+            "scaleInDock": 1
+        },
         "mapa_japon.json#background-japan": {
-            "scaleInDock": 0.5
+            "scaleInDock": 0.75
+        },
+        "mapa_medieval.json": {
+            "scale": 2,
+            "selectedLayer": 1,
+            "viewCenter": {
+                "x": 450.25,
+                "y": 172.25
+            }
+        },
+        "mapa_medieval.json#tiles-castle": {
+            "scaleInDock": 3
         },
         "mapa_roma.json": {
-            "scale": 0.33,
-            "selectedLayer": 0,
+            "scale": 0.75,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 1295.4545454545455,
-                "y": 798.4848484848484
+                "x": 2383.333333333333,
+                "y": 804.6666666666667
             }
         },
         "mapa_roma.json#background-rome": {
-            "scaleInDock": 0.5,
+            "scaleInDock": 0.75,
             "scaleInEditor": 1
         }
     },
     "last.imagePath": "D:/Universidad/Deberes/octavo/juegos/assets",
     "map.lastUsedFormat": "json",
-    "map.tileHeight": 65,
-    "map.tileWidth": 65,
+    "map.tileHeight": 16,
+    "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
         "mapa_roma.json",
         "mapa_egipto.json",
-        "mapa_japon.json"
+        "mapa_japon.json",
+        "mapa_medieval.json"
     ],
     "project": "trabajo-4.tiled-project",
     "property.type": "bool",
     "recentFiles": [
         "mapa_roma.json",
-        "mapa_egipto.json",
-        "mapa_japon.json"
+        "mapa_medieval.json",
+        "mapa_japon.json",
+        "mapa_egipto.json"
     ],
     "tileset.embedInMap": true,
     "tileset.tileSize": {
-        "height": 65,
-        "width": 65
+        "height": 16,
+        "width": 16
     }
 }

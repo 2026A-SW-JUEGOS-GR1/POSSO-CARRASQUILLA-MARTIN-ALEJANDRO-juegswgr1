@@ -10,7 +10,7 @@ const config = {
         }
     },
     // Cargamos nuestras escenas
-    scene: [MainMenu, Level1, Level2] 
+    scene: [MainMenu, Level1, Level2, Level3, Level4] 
 };
 
 const game = new Phaser.Game(config);

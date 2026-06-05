@@ -21,6 +21,8 @@ class Level1 extends Phaser.Scene {
     }
 
     create() {
+        this.isPaused = false;
+        this.physics.resume();
         this.score = 0;
         this.lives = 3;
         this.gemsCollected = 0;
@@ -111,7 +113,7 @@ class Level1 extends Phaser.Scene {
                 // Propiedades personalizadas para el movimiento
                 platform.startX = x;
                 platform.direction = 1; // 1 = derecha, -1 = izquierda
-                platform.speed = 100;
+                platform.speed = 200;
 
                 // Eliminamos el tile original para que no estorbe
                 this.capaPlataformas.removeTileAt(tile.x, tile.y);
@@ -140,6 +142,10 @@ class Level1 extends Phaser.Scene {
     }
 
     update(time, delta) {
+        if (Phaser.Input.Keyboard.JustDown(this.pauseKey)) {
+            this.togglePause();
+        }
+
         if (this.isPaused) return;
 
         // 4. MOVIMIENTO Y ANIMACIONES
@@ -208,7 +214,7 @@ class Level1 extends Phaser.Scene {
             tile.tint = 0xff0000; // Se tiñe de rojo
 
             // Temporizador de 2 segundos (2000 milisegundos)
-            this.time.delayedCall(700, () => {
+            this.time.delayedCall(200, () => {
                 this.capaPlataformas.removeTileAt(tile.x, tile.y);
             });
         }
@@ -240,6 +246,9 @@ class Level1 extends Phaser.Scene {
             
             this.menuKey = this.input.keyboard.addKey(Phaser.Input.Keyboard.KeyCodes.M);
             this.menuKey.on('down', () => {
+                this.isPaused = false;
+                this.physics.resume();
+                this.scene.stop(); // Detiene por completo la escena actual para borrarla de la memoria
                 this.scene.start('MainMenu');
             });
         } else {
